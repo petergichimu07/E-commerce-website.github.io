@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>login</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <form action="servercode.php" method="POST">
+        <div class="logindiv">
+
+            <p>Provide your full name<span style="color: red"> *</p>
+            <input type="text" name="cust_name" placeholder="Fullname" required autocomplete="off">
+            <p>Provide your Current Email<span style="color: red"> *</p>
+            <input type="email" name="cust_email" placeholder="Email@...com" required autocomplete="off">
+            <p>Provide a password<span style="color: red"> *</p>
+            <input type="password" name="cust_password1" placeholder="Password" required autocomplete="off">
+            <p>Re-enter the above password<span style="color: red"> *</p>
+            <input type="password" name="cust_password2" placeholder="Re-enter Password" required><br>
+            <input type="submit" name="login"><br>
+            <p>Already have an account? <a href="login.html" class="a">Login here.</a> </p>
+            <a href="index.html" class="a">Home. </a>
+            <a href="about.html" class="a">About us. </a>
+            <a href="contact.html" class="a">Contact us. </a>
+        </div>
+    </form>
+</body>
+
+</html>
